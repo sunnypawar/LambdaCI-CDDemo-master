@@ -18,6 +18,14 @@
             ],
             "Effect": "Allow"
         },
+
+        {
+            "Effect":"Allow",
+            "Action": "cloudwatch:PutMetricAlarm",
+            "Resource":"*"
+        },
+
+
         {
             "Action": [
                 "lambda:*"
