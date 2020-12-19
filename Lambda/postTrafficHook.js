@@ -21,7 +21,7 @@ exports.handler = (event, context, callback) => {
         console.log(`Lambda Data ${JSON.stringify(data)}`);
         const response = JSON.parse(data.Payload);
 
-        if (response.body === "Hello World") {
+        if (response.body === "Hello World-1") {
             status = "Succeeded";
         };
 
